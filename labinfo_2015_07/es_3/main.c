@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#define N 512
-
 int main(void) {
-    char buff[N];
     char c;
     int count = 0, alpha_count = 0, upper_count = 0, nums_count = 0,
         spaces_count = 0, words_count = 0;
 
     int is_last_alpha = 0;
 
-    printf("insert sentence(s) max %d characters:\n", N);
+    puts("insert sentence(s):");
     while ((c = getchar()) != '\n') {
         ++count;
         if (isspace(c)) {
