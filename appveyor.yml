@@ -1,0 +1,12 @@
+version: 1.0.{build}
+build_script:
+- cmd: >-
+    mkdir build
+
+    cd build
+
+    cmake -G "Visual Studio 14 2015" ..
+
+    msbuild CExercises.sln /maxcpucount /p:Configuration=Release
+test: off
+deploy: off
