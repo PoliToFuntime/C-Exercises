@@ -1,3 +1,21 @@
+/*
+### Esercizio ###
+Si scriva un programma in grado di manipolare gli elementi di un vettore di interi.
+Tale programma, dopo aver acquisito il contenuto del vettore, invoca due funzioni:
+    a. mediaVett: calcola la media degli elementi del vettore, restituendo tale valore alla funzione chiamante;
+    b. superanoLimite: conta il numero di elementi che hanno valore superiore ad un certo limite, restituendolo alla funzione chiamante.
+
+Il programma deve infine visualizzare la media dei valori del vettore e il numero di elementi che superano la media.
+
+Suggerimento: per la funzione mediaVett il prototipo sarà: float mediaVett (int v[], int n);
+mentre per la funzione superanoLimite il prototipo sarà:
+   int superanoLimite (int v[], int n, float limite);
+
+Approfondimento: si condensino le due funzioni descritte in un’unica funzione che restituisca il valore medio e che
+memorizzi nella variabile corrispondente al parametro superiori del prototipo il numero di elementi di valore superiore alla media:
+   float oltreMedia(int v[], int n, int *superiori);
+*/
+
 #include <stdio.h>
 
 #define N 8

@@ -1,3 +1,20 @@
+/*
+### Esercizio ###
+Si scriva un programma C che acquisisca caratteri da tastiera fino alla ricezione di un “a capo”.
+
+Dopo tale evento il programma deve fornire all’utente le seguenti statistiche:
+    a. il numero di caratteri introdotti;
+    b. il numero di caratteri alfabetici;
+    c. il numero di caratteri maiuscoli;
+    d. il numero di cifre decimali;
+    e. il numero di caratteri di spaziatura;
+    f. Il numero di parole digitate, dove per parola si intende una sequenza di caratteri alfabetici contigui
+       (“ciao 123 mondo !” dà 2 parole).
+
+Suggerimento: Si utilizzino le funzioni della libreria standard dichiarate nell’header file <ctype.h> e si utilizzi una
+singola variabile di tipo carattere per l’acquisizione.
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 

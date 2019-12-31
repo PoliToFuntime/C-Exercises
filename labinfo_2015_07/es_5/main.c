@@ -1,3 +1,14 @@
+/*
+### Esercizio ###
+Si scriva un programma C che:
+    a. definisca due variabili di tipo carattere;
+    b. ne acquisisca il contenuto da tastiera;
+    c. stabilisca se i caratteri sono entrambi alfabetici:
+
+i.  in caso positivo, controlli se sono uguali e, se non lo sono, stampi i due caratteri in ordine alfabetico;
+ii. in caso negativo, specifichi tramite messaggio se almeno uno dei caratteri è una cifra.
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 
